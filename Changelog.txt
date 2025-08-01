@@ -1,0 +1,87 @@
+CSVMerge
+2025, Ashe Johnson Bones
+Synventive Engineering Inc.
+"A Simple GUI program to merge, clean, and split multiple CSV files."
+
+[CHANGELOG]
+
+31 JULY 2025
+
+- v. 1.0.0.0
+	Initial release
+
+- v. 1.0.0.1
+	Changed language level to 8. Allows for compatability with JRE 8.
+
+- v. 1.1.0.0
+	Program now accounts for whitespace, capitalization differences,
+	and other errors between headers across CSV files.
+
+	Program now has graphical prompts, rather than outputting to console
+
+- v. 1.1.0.1
+	Changed language level to 8 again, after it was erroneously set
+	to 22. Allows for compatability with JRE 8.
+
+	Program now comes packaged with JRE 8, making it fully standalone.
+
+- v. 1.2.0.0
+	Program now splits the final merged CSV file into several CSV
+	files, with lengths determined by user-prompted input.
+
+	Program now appends an additional column to each merged CSV, 
+	titled, "Category". Program increments this count across
+	successive CSV files (i.e. file1 is PB1, file2 is PB2, etc.)
+
+	Program now takes input from CSV files in the "Input Folder"
+	folder.
+
+	Changed error prompts.
+
+	Created a README file.
+
+- v. 2.2.0.2
+	Program has been reworked to now make use of JFrame elements,
+	allowing for a basic GUI.
+
+	Users can now define input and output directories
+
+	Category field is no longer required. If left blank, the program
+	will not append a Category column to the split .CSV file(s).
+
+	Outputs a full merged and alphabetized .CSV in addition to the 
+	split .CSV files.
+
+	Outputs a full merged and shuffled .CSV in addition to the
+	split .CSV files.
+
+-v. 2.3.0.0
+	General UI improvements. The UI now also allows for rescaling
+	and fullscreen display.
+
+	Removed the 'Clear Console' button.
+
+	The program now outputs the console information to individual
+	log files found in the 'Logs' folder. A new log file is 
+	generated upon each start up and execution cycle.
+
+	Misc. code and logic improvements.
+
+-v. 2.3.1.2
+	Misc. code and logic improvements. Program is now smaller in
+	size, and more efficient
+
+	Minor changes to the colours on the GUI.
+
+	Program now prevents multiple instances from starting at once.
+
+-v. 2.3.1.3
+	Fixed an unnecessary variable incrementation warning.
+
+-v. 2.3.2.0
+	Created an installer for the program.
+
+	Created a self-signed certificate for the program.
+
+	Fixed an error on the .exe that resulted in an endless loop
+	of booting and closing JVM.

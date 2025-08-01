@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Laptop-O-Matic II\Desktop\CSVMerge\CSVMergeMaster\Out\artifacts\CSVMerge_jar\CSVMerge.jar</jar>
+  <outfile>C:\Users\Laptop-O-Matic II\Desktop\CSVMerge\CSVMergeMaster\Out\artifacts\CSVMerge_jar\CSVMerge.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Laptop-O-Matic II\Desktop\CSVMerge\CSVMergeMaster\Icon\icon.ico</icon>
+  <jre>
+    <path>JRE</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>2.3.1.4</fileVersion>
+    <txtFileVersion>2.3.1.4</txtFileVersion>
+    <fileDescription>A Simple GUI program to merge, clean, and split multiple CSV files.</fileDescription>
+    <copyright>2025, Ashe Johnson Bones</copyright>
+    <productVersion>2.3.1.4</productVersion>
+    <txtProductVersion>2.3.1.4</txtProductVersion>
+    <productName>CSVMerge</productName>
+    <companyName>Synventive Engineering Inc.</companyName>
+    <internalName>CSVMergePro</internalName>
+    <originalFilename>CSVMerge.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
